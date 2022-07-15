@@ -1,0 +1,129 @@
+
+
+p-table .ui-table-scrollable-body-table .ui-table-tbody td {
+    word-wrap: break-word !important;
+}
+
+p-table .ui-table .ui-chkbox .ui-chkbox-icon {
+    /*padding-top: 1px;*/
+    font-size: var(--att-font);
+    color: #ffffff;
+}
+
+p-table .ui-table .ui-chkbox-box.ui-state-active,.ui-chkbox-box.ui-state-default.ui-state-active{
+    /*background: #ffffff;
+        color: #067ab4;*/
+        background: #0057B8 !important;
+        /* color: #ffffff !important; */
+        border: 1px solid #0057B8 !important;
+}
+
+p-table .ui-table p-tableheadercheckbox .ui-chkbox-box.ui-state-active {
+        border: 1px solid #ffffff !important;
+}
+
+p-table .ui-table .ui-table-thead > tr > th {
+    vertical-align: middle;
+    word-wrap: break-word;
+    text-align: left;
+    font-size: var(--att-font)!important;
+    border:0.5px solid #7f7f7f !important;
+}
+
+p-table.pgInput .ui-table .ui-table-thead > tr > th input,
+p-table.searchTableHeight_v2 .ui-table .ui-table-thead > tr > th input,
+p-table.leaseMlaSearch .ui-table .ui-table-thead > tr > th input,
+p-table.searchTableHeight .ui-table .ui-table-thead > tr > th input {
+    color: #000000 !important;
+    font-family: ATT Aleck Sans Medium !important;
+}
+
+.ui-table-frozen-view .ui-table-scrollable-body {
+    max-height: calc(100vh - 407.881px);
+    padding-bottom: 10px;
+}
+
+.btnCss{
+    border: none;
+    background-color: transparent;
+    font-size: 11px;
+    font-weight: 400;
+    margin: 0 20px 0 10px;
+} 
+
+.btnCss.active{
+    border: #0B0B45;
+    background-color: #0B0B45;
+    color: white;
+    padding: 7px 14px;
+}
+
+.table{
+    font-size: 12px;
+}
+
+::ng-deep .ui-table-scrollable-header{
+    /*width: calc(100% - 18px);*/
+}
+
+::ng-deep .ui-table .ui-table-thead>tr>th, ::ng-deep .ui-table .ui-table-tfoot>tr>td {
+    padding: .25em 1em;
+}
+
+ ::ng-deep .ui-table .ui-table-tbody>tr>td{
+     padding: 1em;
+ }
+
+ .noDesc{
+     background-color: #fafafa;
+     padding: 10px 15px;
+     text-align: center;
+     margin-top: 10px;
+ }
+
+ /*::ng-deep .ui-widget, .ui-widget * {
+    border: 0 none;
+    box-sizing: border-box;
+}*/
+
+::ng-deep .table thead th {
+    border: 0 none;
+}
+
+::ng-deep .ui-state-highlight{
+    font-weight: bold;
+    background-color: #fafafa;
+}
+
+::ng-deep .ui-state-highlight td .activeDetails{
+    border-bottom: 3px solid #000080;
+    background-color: white;
+    color: #000080; 
+    padding: 1px 9px !important;
+}
+
+
+
+::ng-deep .ui-state-highlight td .activeActionBtn{
+    color: #000 !important; 
+}
+
+ul {
+   list-style-type: none;
+}
+
+.noRecords{
+    width: 100%;
+    height: 800px;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 100px;
+    font-size: 12px;
+}
+
+.inputBox input{    
+    width: 100%;
+    border: 1px solid lightgrey;
+    height: 30px;
+    padding: 0px 10px;
+}

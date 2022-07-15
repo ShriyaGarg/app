@@ -1,0 +1,260 @@
+{
+    "buttons": [
+        {
+            "label" : "SAVED LISTS",
+            "class" : "fa fa-list",
+            "field" : "list"
+        },        
+        {
+            "label" : "SAVED FILTERS",
+            "class" : "fa fa-filter",
+            "field" : "filter"
+        },
+        {
+            "label" : "SEARCH HISTORY",
+            "class" : "fa fa-history",
+            "field" : "history"
+        }
+    ],
+    "tableInfo": {
+        "headers": [
+            {
+                "label": "Date",
+                "field": "date",
+                "display": true,
+                "displaySequence": 1,
+                "align": "center",
+                "width": "80px"
+            },
+            {
+                "label": "List Name",
+                "field": "listName",
+                "display": true,
+                "displaySequence": 2,
+                "align": "left",
+                "width": "300px"
+            },
+            {
+                "label": "No. of Entities",
+                "field": "entities",
+                "display": true,
+                "displaySequence": 3,
+                "align": "right",
+                "width": "80px"
+            },
+            {
+                "label": "Actions",
+                "field": "actions",
+                "display": true,
+                "displaySequence": 4,
+                "align": "left",
+                "width": "120px"
+            },
+            {
+                "label": "",
+                "field": "detailsHeader",
+                "display": true,
+                "displaySequence": 5,
+                "align": "center",
+                "width": "80px"
+            }
+        ],
+        "data": [
+            {
+                "date": "",
+                "listName": "Competitive Intelligence",
+                "entities": 0,
+                "actions": ["envelope-o"],
+                "details": [],
+                "detailsHeader": "Details"
+            },
+            {
+                "date": "",
+                "listName": "My vendors",
+                "entities": 0,
+                "actions": ["envelope"],
+                "details": [],
+                "detailsHeader": "Details"
+            },
+            {
+                "date": "",
+                "listName": "My Customers",
+                "entities": 0,
+                "actions": ["envelope"],
+                "details": [],
+                "detailsHeader": "Details"
+            },
+            {
+                "date": "Jul 23",
+                "listName": "Test_30_results",
+                "entities": 28,
+                "actions": ["envelope", "share-alt", "pencil", "trash"],
+                "details": ["Bundi Technologies Private Limited (Swiggy)",
+                    "Hector Beverages Private Limited",
+                    "Puma Sports India Private Limited",
+                    "Dewan Housing Finance Corporation Ltd.",
+                    "Infosys Limited",
+                    "Think & Learn Private Limited",
+                    "Delhivery Private Limited",
+                    "Wow Momo Foods Private Limited",
+                    "Rebel Foods Private Limited (Faasos)",
+                    "Lendingkart Technologies Private Limited",
+                    "ID Fresh Food (India) Private Limited",
+                    "Bharathiasha Technologies Private Limited (PrivateCircle)",
+                    "Gala Precision Engineering Private Limited",
+                    "Balaji Wafers Private Limited",
+                    "Sangeetha Mobiles Private Limited",
+                    "Vodafone Idea Limited",
+                    "Vakrangee Ltd."],
+                "detailsHeader": "Details"
+            },
+            {
+                "date": "Jun 28",
+                "listName": "To_Index",
+                "entities": 100,
+                "actions": ["envelope", "share-alt", "pencil", "trash"],
+                "details": [
+                    "Rebel Foods Private Limited (Faasos)",
+                    "Lendingkart Technologies Private Limited",
+                    "ID Fresh Food (India) Private Limited",
+                    "Bharathiasha Technologies Private Limited (PrivateCircle)",
+                    "Gala Precision Engineering Private Limited",
+                    "Balaji Wafers Private Limited",
+                    "Sangeetha Mobiles Private Limited",
+                    "Vodafone Idea Limited",
+                    "Vakrangee Ltd."],
+                "detailsHeader": "Details"
+            },
+            {
+                "date": "Apr 10",
+                "listName": "KPMG Requested Companies - Listed Set_Prasada Kumar",
+                "entities": 34,
+                "actions": ["envelope", "share-alt", "pencil", "trash"],
+                "details": [],
+                "detailsHeader": "Details"
+            },
+            {
+                "date": "Mar 12",
+                "listName": "Error case - LTB To EBITDA Blank_Prasada Kumar",
+                "entities": 24,
+                "actions": ["envelope", "share-alt", "pencil", "trash"],
+                "details": [
+                    "Puma Sports India Private Limited",
+                    "Dewan Housing Finance Corporation Ltd."],
+                "detailsHeader": "Details"
+            },
+            {
+                "date": "Dec 14",
+                "listName": "Two Companies",
+                "entities": 2,
+                "actions": ["envelope", "share-alt", "pencil", "trash"],
+                "details": ["Vakrangee Ltd."],
+                "detailsHeader": "Details"
+            },
+            {
+                "date": "Nov 01",
+                "listName": "Custom",
+                "entities": 30,
+                "actions": ["envelope", "share-alt", "pencil", "trash"],
+                "details": [],
+                "detailsHeader": "Details"
+            },
+            {
+                "date": "Oct 29",
+                "listName": "Mumbai",
+                "entities": 3,
+                "actions": ["envelope", "share-alt", "pencil", "trash"],
+                "details": [
+                    "Lendingkart Technologies Private Limited",
+                    "ID Fresh Food (India) Private Limited",
+                    "Bharathiasha Technologies Private Limited (PrivateCircle)",
+                    "Gala Precision Engineering Private Limited",
+                    "Balaji Wafers Private Limited",
+                    "Sangeetha Mobiles Private Limited",
+                    "Vodafone Idea Limited",
+                    "Vakrangee Ltd."],
+                "detailsHeader": "Details"
+            },
+            {
+                "date": "Jun 30",
+                "listName": "Mumbai_test",
+                "entities": 3,
+                "actions": ["envelope", "share-alt", "pencil", "trash"],
+                "details": ["Vakrangee Ltd."],
+                "detailsHeader": "Details"
+            },
+            {
+                "date": "Mar 10",
+                "listName": "Mumbai_result",
+                "entities": 3,
+                "actions": ["envelope", "share-alt", "pencil", "trash"],
+                "details": ["Bundi Technologies Private Limited (Swiggy)"],
+                "detailsHeader": "Details"
+            },
+            {
+                "date": "Oct 18",
+                "listName": "Custom_Check",
+                "entities": 3,
+                "actions": ["envelope", "share-alt", "pencil", "trash"],
+                "details": [],
+                "detailsHeader": "Details"
+            },
+            {
+                "date": "Oct 1",
+                "listName": "Test-Check",
+                "entities": 3,
+                "actions": ["envelope", "share-alt", "pencil", "trash"],
+                "details": ["Think & Learn Private Limited"],
+                "detailsHeader": "Details"
+            },
+            {
+                "date": "Dec 4",
+                "listName": "Error-Check",
+                "entities": 3,
+                "actions": ["envelope", "share-alt", "pencil", "trash"],
+                "details": ["ID Fresh Food (India) Private Limited", "Wow Momo Foods Private Limited", "Sangeetha Mobiles Private Limited"],
+                "detailsHeader": "Details"
+            },
+            {
+                "date": "Oct 29",
+                "listName": "Mumbai",
+                "entities": 3,
+                "actions": ["envelope", "share-alt", "pencil", "trash"],
+                "details": [],
+                "detailsHeader": "Details"
+            },
+            {
+                "date": "Oct 29",
+                "listName": "Mumbai",
+                "entities": 3,
+                "actions": ["envelope", "share-alt", "pencil", "trash"],
+                "details": ["Lendingkart Technologies Private Limited"],
+                "detailsHeader": "Details"
+            },
+            {
+                "date": "Oct 29",
+                "listName": "Mumbai",
+                "entities": 3,
+                "actions": ["envelope", "share-alt", "pencil", "trash"],
+                "details": ["Balaji Wafers Private Limited","Vodafone Idea Limited"],
+                "detailsHeader": "Details"
+            },
+            {
+                "date": "Oct 29",
+                "listName": "Mumbai",
+                "entities": 3,
+                "actions": ["envelope", "share-alt", "pencil", "trash"],
+                "details": [],
+                "detailsHeader": "Details"
+            },
+            {
+                "date": "Oct 29",
+                "listName": "Mumbai",
+                "entities": 3,
+                "actions": ["envelope", "share-alt", "pencil", "trash"],
+                "details": [],
+                "detailsHeader": "Details"
+            }
+        ]
+    }
+}
